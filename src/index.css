@@ -2,4 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Fira+Code&family=Lora:wght@500&family=Quicksand&family=Source+Serif+Pro&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Fira+Code&family=Lora:wght@500&family=Quicksand&family=Handlee&family=Source+Sans+Pro:wght@300;400&family=Alata&family=Handlee&family=Source+Serif+Pro&display=swap');
+
+.lora{
+  font-family: 'Lora', serif;
+}
