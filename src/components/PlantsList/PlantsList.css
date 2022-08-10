@@ -1,0 +1,35 @@
+.plantListItem:hover{
+    box-shadow: 0px 0px 14px -2px rgba(31,161,99,0.94) inset;
+    -webkit-box-shadow: 0px 0px 14px -2px rgba(31,161,99,0.94) inset;
+    -moz-box-shadow: 0px 0px 14px -2px rgba(31,161,99,0.94) inset;
+    transition: 0.9s;
+}
+
+.plantListItem img{
+    align-content: center;
+}
+
+.plantListItem p{
+    font-size: 12px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.seeProduct{
+    background-color: none;
+    text-align: center;
+}
+
+.seeProduct button{
+    border-radius: 10px;
+    background-color: rgb(25, 196, 25);
+    color: white;
+    font-size: 20px;
+}
+
+.seeProduct button:hover{
+    background-color: rgb(35, 223, 35);
+    -webkit-box-shadow: 5px 4px 4px 1px rgba(10,10,10,0.25); 
+    box-shadow: 5px 4px 4px 1px rgba(10,10,10,0.25);
+    transition: 0.5s;
+}

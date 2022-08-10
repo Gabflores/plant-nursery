@@ -1,0 +1,19 @@
+.cartBackground{
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    margin-right: 0;
+}
+
+.cartBackground{
+   top:9px;
+}
+
+.cartItem img{
+    height: 170px;
+}
+
+
+.hrr{
+    background-color: black;
+}
