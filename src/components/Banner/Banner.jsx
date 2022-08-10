@@ -3,7 +3,7 @@ import bannerImg from "../../img/banner.jpg";
 import "./Banner.css";
 
 function Banner(){
-//<img  classname="bannerImg  h-4/6" src={bannerImg} alt="banner"/>
+
   return (
     <>
     <div 
