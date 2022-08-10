@@ -3,3 +3,7 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Belleza&family=Fira+Code&family=Lora:wght@500&family=Quicksand&family=Source+Serif+Pro&display=swap');
+
+.lora{
+  font-family: 'Lora', serif;
+}

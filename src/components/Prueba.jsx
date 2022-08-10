@@ -8,7 +8,7 @@ function Prueba() {
   });
   useEffect(()=>{
     const getAdmins= async () =>{
-        const response = await fetch("https://mvcproject-plantnursery.herokuapp.com/api/admin/",{
+        const response = await fetch("https://mvcproject-plantnursery.herokuapp.com/api/user/",{
           method:"GET"
         })
         const data = await response.json();
