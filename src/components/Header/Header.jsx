@@ -14,10 +14,17 @@ function Header() {
     navigate("/login");
   }
 
+
   return (
     <>
       <header className="flex justify-between w-screen items-end px-4 md:px-12 py-3 md:py-6 fixed bg-white z-50 shadow-md shadow-gray-200">
-        <img className=" w-32 cursor-pointer" src={logo} alt="logo " />
+        <img
+          className=" w-32 cursor-pointer"
+          src={logo}
+          alt="logo "
+          onClick={() => {
+            navigate("/");
+          }} />
         <nav className="hidden md:block">
           <ul className="flex">
             <li className=" menuItem mr-7 md:mr-8 hover:underline  decoration-gray-700 cursor-pointer">Plant</li>
