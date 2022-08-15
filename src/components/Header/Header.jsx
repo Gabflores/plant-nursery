@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import logo from "../../img/logo.svg";
 import searchIcon from "../../img/search.svg";
 import cartIcon from "../../img/cart.svg";
@@ -6,12 +6,18 @@ import loginIcon from "../../img/login.svg"
 import menuIcon from "../../img/menu.svg";
 import { useNavigate } from "react-router-dom";
 import "./Header.css";
+import { AppContext } from "../../context/AppContext";
 
 
 function Header() {
   const navigate = useNavigate();
+  const { cart } = useContext(AppContext);
   const handleLogin = () => {
     navigate("/login");
+  }
+
+  const handleCart = () => {
+    console.log(cart);
   }
 
 
@@ -41,7 +47,11 @@ function Header() {
             className="w-5 mr-8 hover:animate-bounce cursor-pointer"
             src={loginIcon}
             alt="login" />
-          <img className="w-5 hover:animate-bounce cursor-pointer" src={cartIcon} alt="cart" />
+          <img
+            onClick={handleCart}
+            className="w-5 hover:animate-bounce cursor-pointer"
+            src={cartIcon}
+            alt="cart" />
         </div>
         <div className="block md:hidden">
           <img src={menuIcon} alt="menu" />
