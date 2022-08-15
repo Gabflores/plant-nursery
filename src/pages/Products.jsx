@@ -54,7 +54,7 @@ function Products() {
           <h2 className="text-xl lora font-medium ">Productos: </h2>
           {role === "Admin" && <div onClick={()=>{navigate("/products/add")}}className="text-center ml-5 cursor-pointer px-3 py-1.5 border-2 border-black rounded-md">+ Agregar Producto</div>}
         </div>
-        <div className="flex flex-nowrap mt-5">
+        <div className="flex flex-wrap mt-5">
 
           {products.loading
             ? "Loading..."
